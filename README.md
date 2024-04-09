@@ -3,6 +3,12 @@
 ## Overview
 The ExcelQueryTelegramBot is a Python-based Telegram bot designed to provide an interactive interface for querying and retrieving data from Excel sheets. By integrating with the Telegram API, it offers users the ability to perform searches and get information directly in their chat windows, making data access simpler and more intuitive.
 
+<p align="center">
+  <img src="https://i.imgur.com/7tk7YeS.png" width="30%" height="30%">
+  &nbsp &nbsp &nbsp
+  <img src="https://i.imgur.com/OTDmXon.png" width="15%" height="15%">
+</p>
+
 ## Features
 - **Data Querying**: Users can send commands to search for specific data within an Excel sheet, such as IDs, names, or job titles.
 - **Flexible Searches**: Supports various query types, allowing for a broad range of data retrieval operations.
@@ -35,3 +41,7 @@ pip install pandas python-telegram-bot
 - Update the `RUTA_EXCEL` and `NOMBRE_HOJA` variables in the script to match your Excel file's path and the sheet name you want to query.
 - Run the bot with: python TelegramExcelReader.py
 - Send commands through your Telegram bot to query data from your specified Excel sheet.
+
+
+
+
